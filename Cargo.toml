@@ -1,0 +1,66 @@
+[package]
+name = "rust-talk"
+version = "0.1.0"
+authors = ["Nicolas Polomack <nipolom@live.fr>"]
+
+[dependencies]
+
+[[bin]]
+name = "1-intro"
+path = "bin/1-intro.rs"
+
+[[bin]]
+name = "2-types"
+path = "bin/2-types.rs"
+
+[[bin]]
+name = "3-mutability"
+path = "bin/3-mutability.rs"
+
+[[bin]]
+name = "4-move_semantics"
+path = "bin/4-move_semantics"
+
+[[bin]]
+name = "5-references"
+path = "bin/5-references.rs"
+
+[[bin]]
+name = "11-aliasing"
+path = "bin/6-aliasing.rs"
+
+[[bin]]
+name = "7-condition_stmt"
+path = "bin/7-condition_stmt.rs"
+
+[[bin]]
+name = "8-condition_expr"
+path = "bin/8-condition_expr.rs"
+
+[[bin]]
+name = "9-loops"
+path = "bin/9-loops.rs"
+
+[[bin]]
+name = "10-destructuring"
+path = "bin/10-destructuring.rs"
+
+[[bin]]
+name = "11-pattern_matching"
+path = "bin/11-pattern_matching.rs"
+
+[[bin]]
+name = "12-memory_model"
+path = "bin/12-memory_model.rs"
+
+[[bin]]
+name = "13-errors"
+path = "bin/13-errors.rs"
+
+[[bin]]
+name = "14-traits"
+path = "bin/14-traits.rs"
+
+[[bin]]
+name = "15-panics"
+path = "bin/15-panics.rs"
