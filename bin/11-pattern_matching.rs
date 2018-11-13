@@ -5,6 +5,8 @@
 // 11-pattern_matching
 //
 
+// Pattern matching: branch based on the structure of a value.
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 struct Vec2u {
     x: u32,
